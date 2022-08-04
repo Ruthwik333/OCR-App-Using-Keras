@@ -1,15 +1,13 @@
-
+import easyocr as ocr  #OCR
 import streamlit as st  #Web App
 from PIL import Image #Image Processing
 import numpy as np #Image Processing 
-import keras_ocr as ocr
 
-pipeline = ocr.pipeline.Pipeline()
 #title
-st.title("Keras OCR - Extract Text from Images")
+st.title("Easy OCR - Extract Text from Images")
 
 #subtitle
-st.markdown("## Optical Character Recognition - Using `kerasocr`, `streamlit`")
+st.markdown("## Optical Character Recognition - Using `easyocr`, `streamlit`")
 
 st.markdown("")
 
